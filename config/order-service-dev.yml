@@ -5,6 +5,12 @@ spring:
 #server:
 #  port: 8201
 
+  rabbitmq:
+    host: 192.168.64.5
+    port: 5672
+    username: admin
+    password: admin
+
 #向eureka服务端注册
 eureka:
   client:
